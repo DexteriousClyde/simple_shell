@@ -19,7 +19,7 @@ int main(void)
 		_put(in);
 		/* Check if user input is valid */
 		break;
-		/* If input is an exit command: exit*/
+		/* If input is an exit command: exit */
 	}
 	return (0);
 }
