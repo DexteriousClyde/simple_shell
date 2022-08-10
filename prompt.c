@@ -5,7 +5,7 @@
  * Return: void
  */
 
-void prompt()
+void prompt(void)
 {
 	char *p = "#cisfun$ ";
 
@@ -14,7 +14,7 @@ void prompt()
 
 /**
  * prompt2 - Function to show prompt to user to enter input
- * @in: Specific input to show user as prompt
+ * @str: Specific input to show user as prompt
  * Return: void
  */
 

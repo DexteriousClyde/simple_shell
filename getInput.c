@@ -5,7 +5,7 @@
  * Return: user input as a string
  */
 
-char *getInput()
+char *getInput(void)
 {
 	char *str = NULL;
 	ssize_t num_read;
@@ -14,5 +14,5 @@ char *getInput()
 	n = 0;
 	num_read = getline(&str, &n, stdin);
 	(void) num_read;
-	return str;
+	return (str);
 }
