@@ -13,6 +13,8 @@ char *getInput(void)
 
 	n = 0;
 	num_read = getline(&str, &n, stdin);
+	if (num_read == -1)
+		return ("-1");
 	(void) num_read;
 	return (str);
 }

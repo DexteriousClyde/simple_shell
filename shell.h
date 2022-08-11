@@ -19,5 +19,9 @@ char *getInput();
 extern char **environ;
 
 /* Struct for build-in commands */
-
+typedef struct type
+{
+	char *op;
+	void (*f)(char *);
+} type_t;
 #endif
